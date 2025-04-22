@@ -14,7 +14,6 @@ interface GalleryGridProps {
 }
 
 const GalleryGrid = ({ items }: GalleryGridProps) => {
-  console.log(styles);
   return (
     <div className={styles.gallery}>
       <Gallery withCaption>

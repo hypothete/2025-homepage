@@ -6,6 +6,20 @@
   max-width: 60em;
 }
 
+.inline-list {
+  text-align: center;
+
+  & li {
+    display:inline;
+    margin: 0.5rem;
+  }
+}
+
+.social-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
 .footer {
   margin: 2em auto;
   background-color: var(--foreground);

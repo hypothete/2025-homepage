@@ -3,8 +3,15 @@ import styles from "@/styles/Home.module.css";
 import "photoswipe/dist/photoswipe.css";
 import Section from "@/components/Section";
 import GalleryGrid from "@/components/GalleryGrid";
+import EmailIcon from "@/assets/email.svg";
+import GithubIcon from "@/assets/github.svg";
+import InstagramIcon from "@/assets/instagram.svg";
+import LinkedInIcon from "@/assets/linkedin.svg";
+
+console.log(typeof LinkedInIcon);
 
 export default function Home() {
+  
   return (
     <>
       <Head>
@@ -24,7 +31,7 @@ export default function Home() {
         <Section title="Career">
           <p>Blurb about the roles I've had</p>
           <h3>Skills I have in no particular order</h3>
-          <ul>
+          <ul className={styles['inline-list']}>
             <li>Skill</li>
             <li>Skill</li>
             <li>Skill</li>
@@ -133,11 +140,27 @@ export default function Home() {
             If you want to hire me, have me write for your zine, or just be
             friends, please reach out!
           </p>
-          <ul>
-            <li>Email</li>
-            <li>Github</li>
-            <li>LinkedIn</li>
-            <li>Instagram</li>
+          <ul className={styles['inline-list']}>
+            <li>
+              <a href="mailto:erin@hypothete.com" target="blank">
+                <EmailIcon className={styles["social-icon"]} />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/hypothete" target="blank">
+                <GithubIcon className={styles["social-icon"]} />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/hypothete/" target="blank">
+                <LinkedInIcon className={styles["social-icon"]} />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/erinholographic/" target="blank">
+                <InstagramIcon className={styles["social-icon"]} />
+              </a>
+            </li>
           </ul>
         </Section>
       </main>
