@@ -1,16 +1,21 @@
-$font-sans: "Poppins", sans-serif;
-$font-serif: "Spectral", serif;
-$font-mono: "Fira Mono", monospace;
-
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ededed;
+  --foreground: #0a0a0a;
+  --font-sans: "Poppins", sans-serif;
+  --font-serif: "Spectral", serif;
+  --font-mono: "Fira Mono", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
   }
 }
 
@@ -23,9 +28,10 @@ body {
 body {
   color: var(--foreground);
   background: #640050;
-  font-family: $font-serif;
+  font-family: var(--font-serif);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0 1rem;
 }
 
 * {
@@ -36,12 +42,12 @@ body {
 
 h1,
 h2 {
-  font-family: $font-sans;
+  font-family: var(--font-sans);
   margin-bottom: 1rem;
 }
 
 code {
-  font-family: $font-mono;
+  font-family: var(--font-mono);
 }
 
 a {
@@ -62,8 +68,7 @@ ul {
   margin-left: 1rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.pswp__default-caption {
+  font-size: 1rem !important;
+  font-weight: 600;
 }

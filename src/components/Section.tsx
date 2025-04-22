@@ -1,5 +1,5 @@
 import { PropsWithChildren } from "react";
-import styles from "@/styles/Section.module.scss";
+import styles from "@/styles/Section.module.css";
 
 interface SectionProps {
   title: string;

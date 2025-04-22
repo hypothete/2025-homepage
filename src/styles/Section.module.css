@@ -1,0 +1,12 @@
+.section {
+  margin: 1rem 0 2rem;
+}
+
+.section__header {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid red;
+}
+
+.section__content {
+  margin: 1rem 0;
+}
