@@ -3,7 +3,13 @@ import styles from "@/styles/Home.module.css";
 import "photoswipe/dist/photoswipe.css";
 import Section from "@/components/Section";
 import GalleryGrid from "@/components/GalleryGrid";
-import EmailIcon from "@/assets/email.svg";
+
+import EngineeringIcon from "@/assets/gear-six-fill.svg";
+import ManagementIcon from "@/assets/kanban-fill.svg";
+import ProductIcon from "@/assets/package-fill.svg";
+import GraphicsIcon from "@/assets/palette-fill.svg";
+
+import EmailIcon from "@/assets/envelope-fill.svg";
 import GithubIcon from "@/assets/github.svg";
 import InstagramIcon from "@/assets/instagram.svg";
 import LinkedInIcon from "@/assets/linkedin.svg";
@@ -32,25 +38,62 @@ export default function Home() {
           />
           <div className={styles["above-fold__text"]}>
             <h1>Erin Alexander</h1>
-            <p>Hi I'm e r i n blah blah blah</p>
-            <code>test to see if Fira Code is rendering</code>
+            <p>
+              Hi, I'm Erin! I'm a software enginer, writer, and visual artist
+              from Portland, Oregon. When I'm in a professional role or making
+              art for myself, my work tends to be cross-disciplinary and driven
+              by systems thinking. I love what science fiction author Rudy
+              Rucker terms <i>the gnarl</i> - the zone of complexity between
+              order and chaos. As such, I find myself embracing that liminality
+              wherever I go, whether wearing multiple hats at startups, or
+              expressing myself through mixed media.
+            </p>
           </div>
         </div>
         <Section title="Career">
-          <p>Blurb about the roles I've had</p>
+          <p>
+            I've worked since 2013 mostly in frontend developer roles at small
+            businesses and startups, with a specialization in graphics on the
+            web. I've also been responsible for system and cloud architecture,
+            project management, and team leadership. Currently I'm looking for
+            new directions to expand in my career, because I love breadth and a
+            holistic understanding of how teams and businesses work.
+          </p>
           <h3>Skills I have in no particular order</h3>
-          <ul className={styles["inline-list--decorated"]}>
-            <li>Skill</li>
-            <li>Skill</li>
-            <li>Skill</li>
-          </ul>
-          <h3>Resume - Choose your path!</h3>
-          <ul>
-            <li>Engineering</li>
-            <li>Management</li>
-            <li>Product</li>
-            <li>Graphics</li>
-          </ul>
+          <pre>
+            TypeScript | React | Redux | Next.js | TanStack Query | Webpack |
+            Babel | Storybook | Vite | GraphQL | WebGL | Canvas | SVG | GLSL |
+            WebGPU | AWS CDK | GitHub Actions | GCP | Agile | Scrum Ceremonies |
+            Ticket Breakout | A/B Testing | Technical Leadership | Hiring |
+            Documentation | Roadmap Planning
+          </pre>
+          <h3 id="resume">Résumé - Choose your path!</h3>
+          <div className={styles["resume-grid"]}>
+            <div className={styles["resume-grid__item"]}>
+              <a href="resumes/Erin Alexander-engineering.pdf" target="blank">
+                <EngineeringIcon className={styles["resume-icon"]} />
+                <h4>Engineering</h4>
+              </a>
+            </div>
+            <div className={styles["resume-grid__item"]}>
+              <a href="resumes/Erin Alexander-management.pdf" target="blank">
+                <ManagementIcon className={styles["resume-icon"]} />
+                <h4>Management</h4>
+              </a>
+            </div>
+            <div className={styles["resume-grid__item"]}>
+              <a href="resumes/Erin Alexander-product.pdf" target="blank">
+                <ProductIcon className={styles["resume-icon"]} />
+                <h4>Product</h4>
+              </a>
+            </div>
+            <div className={styles["resume-grid__item"]}>
+              <a href="resumes/Erin Alexander-graphics.pdf" target="blank">
+                <GraphicsIcon className={styles["resume-icon"]} />
+                <h4>Graphics</h4>
+              </a>
+            </div>
+          </div>
         </Section>
         <Section title="Art">
           <p>Blurb about my art background and what I do now</p>
@@ -87,9 +130,9 @@ export default function Home() {
         </Section>
         <Section title="Writing">
           <p>
-            I came out as trans in 2022, and since then I've been writing essays
-            about my experiences in transition. I use my writing as a way to
-            engage with queer theory, history, and media in order to better
+            I came out as transgender in 2022, and since then I've been writing
+            essays about my experiences in transition. I use my writing as a way
+            to engage with queer theory, history, and media in order to better
             understand myself and what it means to be trans.
           </p>
           <h3>Some favorites</h3>

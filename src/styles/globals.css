@@ -1,6 +1,7 @@
 :root {
   --background: #ededed;
   --foreground: #0a0a0a;
+  --accent: #c00a86;
   --font-sans: "Poppins", sans-serif;
   --font-serif: "Spectral", serif;
   --font-mono: "Fira Mono", monospace;
@@ -48,19 +49,27 @@ h2 {
 
 h3 {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
-code {
+code, pre {
   font-family: var(--font-mono);
   padding: 0.5rem;
   border-radius: 2px;
   background-color: #333;
   color: #ddd;
+  display: block;
+  white-space: pre-wrap;
+  margin-bottom: 1.5rem;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent);
 }
 
 p {
