@@ -11,7 +11,6 @@ import LinkedInIcon from "@/assets/linkedin.svg";
 console.log(typeof LinkedInIcon);
 
 export default function Home() {
-  
   return (
     <>
       <Head>
@@ -25,13 +24,22 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Erin Alexander</h1>
-        <p>Hi I'm e r i n blah blah blah</p>
-        <code>test to see if Fira Code is rendering</code>
+        <div className={styles["above-fold"]}>
+          <img
+            className={styles["above-fold__headshot"]}
+            src="images/elephants-3-yrs.jpg"
+            alt="A photo of Erin Alexander"
+          />
+          <div className={styles["above-fold__text"]}>
+            <h1>Erin Alexander</h1>
+            <p>Hi I'm e r i n blah blah blah</p>
+            <code>test to see if Fira Code is rendering</code>
+          </div>
+        </div>
         <Section title="Career">
           <p>Blurb about the roles I've had</p>
           <h3>Skills I have in no particular order</h3>
-          <ul className={styles['inline-list']}>
+          <ul className={styles["inline-list--decorated"]}>
             <li>Skill</li>
             <li>Skill</li>
             <li>Skill</li>
@@ -140,7 +148,7 @@ export default function Home() {
             If you want to hire me, have me write for your zine, or just be
             friends, please reach out!
           </p>
-          <ul className={styles['inline-list']}>
+          <ul className={styles["inline-list"]}>
             <li>
               <a href="mailto:erin@hypothete.com" target="blank">
                 <EmailIcon className={styles["social-icon"]} />
@@ -157,7 +165,10 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/erinholographic/" target="blank">
+              <a
+                href="https://www.instagram.com/erinholographic/"
+                target="blank"
+              >
                 <InstagramIcon className={styles["social-icon"]} />
               </a>
             </li>
@@ -165,7 +176,7 @@ export default function Home() {
         </Section>
       </main>
       <footer className={styles.footer}>
-        Copyright 2009-25. All rights reserved 😘
+        Copyright Erin A. 2009-25. All rights reserved 😘
       </footer>
     </>
   );

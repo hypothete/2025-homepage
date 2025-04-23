@@ -4,7 +4,7 @@
 
 .section__header {
   margin-bottom: 2rem;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid var(--foreground);
 }
 
 .section__content {

@@ -46,8 +46,16 @@ h2 {
   margin-bottom: 1rem;
 }
 
+h3 {
+  text-align: center;
+}
+
 code {
   font-family: var(--font-mono);
+  padding: 0.5rem;
+  border-radius: 2px;
+  background-color: #333;
+  color: #ddd;
 }
 
 a {
