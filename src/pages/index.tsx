@@ -41,14 +41,13 @@ export default function Home() {
           <div className={styles["above-fold__text"]}>
             <h1>Erin Alexander</h1>
             <p>
-              Hi, I'm Erin! I'm a software enginer, writer, and visual artist
+              Hi, I'm Erin! I'm a software engineer, writer, and visual artist
               from Portland, Oregon. When I'm in a professional role or making
               art for myself, my work tends to be cross-disciplinary and driven
-              by systems thinking. I love what science fiction author Rudy
-              Rucker terms <i>the gnarl</i>—the zone of complexity between
-              order and chaos. I embrace that liminality wherever
-              I go, whether wearing multiple hats at startups, or expressing
-              myself through multimedia.
+              by systems thinking. I'm drawn to what science fiction author Rudy
+              Rucker terms <i>the gnarl</i>—the zone of complexity between order
+              and chaos. I embrace that liminality, whether I'm wearing multiple
+              hats at startups or expressing myself through multimedia.
             </p>
           </div>
         </div>
@@ -56,12 +55,12 @@ export default function Home() {
           <p>
             I've worked since 2013 mostly in frontend developer roles at small
             businesses and startups. I've been responsible for complex
-            visalization solutions, system and cloud architecture, project
-            management, and team leadership. Currently I'm seeking new
-            directions in my career, because I love breadth and a holistic
-            understanding of how teams and businesses work.
+            visalizations, system and cloud architecture, project management,
+            and team leadership. Currently I'm seeking new directions in my
+            career, because I love breadth and a holistic understanding of how
+            teams and businesses work.
           </p>
-          <h3>Skills I have in no particular order</h3>
+          <h3>An unordered list of my skills</h3>
           <pre>
             TypeScript | React | Redux | Next.js | TanStack Query | Webpack |
             Storybook | Vite | GraphQL | WebGL | Canvas | SVG | GLSL | WebGPU |
@@ -72,25 +71,25 @@ export default function Home() {
           <h3 id="resume">Résumé - Choose your path!</h3>
           <div className={styles["resume-grid"]}>
             <div className={styles["resume-grid__item"]}>
-              <a href="resumes/Erin Alexander-engineering.pdf" target="blank">
+              <a href="resumes/Erin Alexander-engineering.pdf" target="blank" rel="noopener noreferrer">
                 <EngineeringIcon className={styles["resume-icon"]} />
                 <h4>Engineering</h4>
               </a>
             </div>
             <div className={styles["resume-grid__item"]}>
-              <a href="resumes/Erin Alexander-management.pdf" target="blank">
+              <a href="resumes/Erin Alexander-management.pdf" target="blank" rel="noopener noreferrer">
                 <ManagementIcon className={styles["resume-icon"]} />
                 <h4>Management</h4>
               </a>
             </div>
             <div className={styles["resume-grid__item"]}>
-              <a href="resumes/Erin Alexander-product.pdf" target="blank">
+              <a href="resumes/Erin Alexander-product.pdf" target="blank" rel="noopener noreferrer">
                 <ProductIcon className={styles["resume-icon"]} />
                 <h4>Product</h4>
               </a>
             </div>
             <div className={styles["resume-grid__item"]}>
-              <a href="resumes/Erin Alexander-graphics.pdf" target="blank">
+              <a href="resumes/Erin Alexander-graphics.pdf" target="blank" rel="noopener noreferrer">
                 <GraphicsIcon className={styles["resume-icon"]} />
                 <h4>Graphics</h4>
               </a>
@@ -102,10 +101,9 @@ export default function Home() {
             I graduated from college in 2009 with a degree in art and art
             history. After school I was deeply involved in the Net Art scene and
             the art collective dump.fm until late 2012, exhibiting work and
-            rubbing shoulders with new media artists and GIF-makers from all
-            around the world. I started to find myself more drawn to the web
-            itself as a medium for expression, and translated my skills into an
-            engineering career.
+            rubbing shoulders with new media artists and GIF-makers. I started
+            to find myself more drawn to the web itself as a medium, and
+            translated my skills into an engineering career.
           </p>
           <GalleryGrid items={oldArtGrid} />
           <p>
@@ -118,40 +116,45 @@ export default function Home() {
         <Section title="Writing">
           <p>
             I came out as transgender in 2022, and since then I've been writing
-            essays on my blog <a href="https://humankibble.com" target="blank">Human Kibble</a> about my experiences in transition. I use my writing as a way
-            to engage with queer theory, history, and media in order to better
-            understand myself and what it means to be trans.
+            essays on my blog{" "}
+            <a href="https://humankibble.com" target="blank" rel="noopener noreferrer">
+              Human Kibble
+            </a>{" "}
+            about my experiences in transition. I write to engage with queer
+            theory, history, and media in order to better understand myself and
+            what it means to be trans.
           </p>
           <h3>Some favorites</h3>
           <ul>
             <li>
               <a
                 href="https://humankibble.com/posts/common-ally-slurs/"
-                target="blank"
+                target="blank" rel="noopener noreferrer"
               >
                 Common Ally Slurs
-              </a>—when truisms hurt, and what to say instead
+              </a>
+              —when truisms hurt, and what to say instead
             </li>
             <li>
               <a
                 href="https://humankibble.com/posts/visibility-tanking/"
-                target="blank"
+                target="blank" rel="noopener noreferrer"
               >
                 Visibility Tanking
-              </a>—a strategy for taking space
+              </a>
+              —a strategy for taking space
             </li>
             <li>
-              <a
-                href="https://humankibble.com/posts/my-dolls/"
-                target="blank"
-              >
+              <a href="https://humankibble.com/posts/my-dolls/" target="blank" rel="noopener noreferrer">
                 My Dolls
-              </a>—a machinima essay on reclaiming my past
+              </a>
+              —a machinima essay on reclaiming my past
             </li>
             <li>
-              <a href="https://humankibble.com/posts/epe-baby/" target="blank">
+              <a href="https://humankibble.com/posts/epe-baby/" target="blank" rel="noopener noreferrer">
                 EPE, baby
-              </a>—an interactive exercise in absurdism
+              </a>
+              —an interactive exercise in absurdism
             </li>
           </ul>
         </Section>
@@ -185,24 +188,24 @@ export default function Home() {
           </p>
           <ul className={styles["inline-list"]}>
             <li>
-              <a href="mailto:erin@hypothete.com" target="blank">
+              <a href="mailto:erin@hypothete.com" target="blank" rel="noopener noreferrer">
                 <EmailIcon className={styles["social-icon"]} />
               </a>
             </li>
             <li>
-              <a href="https://github.com/hypothete" target="blank">
+              <a href="https://github.com/hypothete" target="blank" rel="noopener noreferrer">
                 <GithubIcon className={styles["social-icon"]} />
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/hypothete/" target="blank">
+              <a href="https://www.linkedin.com/in/hypothete/" target="blank" rel="noopener noreferrer">
                 <LinkedInIcon className={styles["social-icon"]} />
               </a>
             </li>
             <li>
               <a
                 href="https://www.instagram.com/erinholographic/"
-                target="blank"
+                target="blank" rel="noopener noreferrer"
               >
                 <InstagramIcon className={styles["social-icon"]} />
               </a>
@@ -210,7 +213,7 @@ export default function Home() {
             <li>
               <a
                 href="https://www.youtube.com/@Hypothete/videos"
-                target="blank"
+                target="blank" rel="noopener noreferrer"
               >
                 <YoutubeIcon className={styles["social-icon"]} />
               </a>

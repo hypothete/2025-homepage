@@ -93,4 +93,8 @@ li {
 .pswp__default-caption {
   font-size: 1rem !important;
   font-weight: 600;
+  max-width: 60rem;
+  margin: 0 auto 2rem;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
