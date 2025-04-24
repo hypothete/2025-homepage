@@ -1,7 +1,7 @@
 import { Gallery, Item } from "react-photoswipe-gallery";
 import styles from '@/styles/GalleryGrid.module.css';
 
-interface GridItem {
+export interface GridItem {
   alt: string;
   caption?: string;
   src: string;

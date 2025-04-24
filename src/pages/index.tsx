@@ -12,7 +12,9 @@ import GraphicsIcon from "@/assets/palette-fill.svg";
 import EmailIcon from "@/assets/envelope-fill.svg";
 import GithubIcon from "@/assets/github.svg";
 import InstagramIcon from "@/assets/instagram.svg";
+import YoutubeIcon from "@/assets/youtube.svg";
 import LinkedInIcon from "@/assets/linkedin.svg";
+import { oldArtGrid, newArtGrid, playGrid } from "@/data/galleries";
 
 console.log(typeof LinkedInIcon);
 
@@ -43,28 +45,28 @@ export default function Home() {
               from Portland, Oregon. When I'm in a professional role or making
               art for myself, my work tends to be cross-disciplinary and driven
               by systems thinking. I love what science fiction author Rudy
-              Rucker terms <i>the gnarl</i> - the zone of complexity between
-              order and chaos. As such, I find myself embracing that liminality
-              wherever I go, whether wearing multiple hats at startups, or
-              expressing myself through mixed media.
+              Rucker terms <i>the gnarl</i>—the zone of complexity between
+              order and chaos. I embrace that liminality wherever
+              I go, whether wearing multiple hats at startups, or expressing
+              myself through multimedia.
             </p>
           </div>
         </div>
         <Section title="Career">
           <p>
             I've worked since 2013 mostly in frontend developer roles at small
-            businesses and startups, with a specialization in graphics on the
-            web. I've also been responsible for system and cloud architecture,
-            project management, and team leadership. Currently I'm looking for
-            new directions to expand in my career, because I love breadth and a
-            holistic understanding of how teams and businesses work.
+            businesses and startups. I've been responsible for complex
+            visalization solutions, system and cloud architecture, project
+            management, and team leadership. Currently I'm seeking new
+            directions in my career, because I love breadth and a holistic
+            understanding of how teams and businesses work.
           </p>
           <h3>Skills I have in no particular order</h3>
           <pre>
             TypeScript | React | Redux | Next.js | TanStack Query | Webpack |
-            Babel | Storybook | Vite | GraphQL | WebGL | Canvas | SVG | GLSL |
-            WebGPU | AWS CDK | GitHub Actions | GCP | Agile | Scrum Ceremonies |
-            Ticket Breakout | A/B Testing | Technical Leadership | Hiring |
+            Storybook | Vite | GraphQL | WebGL | Canvas | SVG | GLSL | WebGPU |
+            AWS CDK | GitHub Actions | GCP | Agile | Scrum Ceremonies | Ticket
+            Breakout | A/B Testing | Technical Leadership | Hiring |
             Documentation | Roadmap Planning
           </pre>
           <h3 id="resume">Résumé - Choose your path!</h3>
@@ -96,95 +98,85 @@ export default function Home() {
           </div>
         </Section>
         <Section title="Art">
-          <p>Blurb about my art background and what I do now</p>
-          <GalleryGrid
-            items={[
-              {
-                alt: "a picture of my Minecraft skin",
-                caption: "This has a caption!",
-                src: "/images/minecraft-skin.png",
-                width: 453,
-                height: 565,
-              },
-              {
-                alt: "a picture of my Minecraft skin",
-                caption: "This has a caption too!",
-                src: "/images/minecraft-skin.png",
-                width: 453,
-                height: 565,
-              },
-              {
-                alt: "a picture of my Minecraft skin",
-                src: "/images/minecraft-skin.png",
-                width: 453,
-                height: 565,
-              },
-              {
-                alt: "a picture of my Minecraft skin",
-                src: "/images/minecraft-skin.png",
-                width: 453,
-                height: 565,
-              },
-            ]}
-          />
+          <p>
+            I graduated from college in 2009 with a degree in art and art
+            history. After school I was deeply involved in the Net Art scene and
+            the art collective dump.fm until late 2012, exhibiting work and
+            rubbing shoulders with new media artists and GIF-makers from all
+            around the world. I started to find myself more drawn to the web
+            itself as a medium for expression, and translated my skills into an
+            engineering career.
+          </p>
+          <GalleryGrid items={oldArtGrid} />
+          <p>
+            These days I mostly paint from photos with paint markers on board,
+            and design vector art for shirts and stickers to share with my
+            friends.
+          </p>
+          <GalleryGrid items={newArtGrid} />
         </Section>
         <Section title="Writing">
           <p>
             I came out as transgender in 2022, and since then I've been writing
-            essays about my experiences in transition. I use my writing as a way
+            essays on my blog <a href="https://humankibble.com" target="blank">Human Kibble</a> about my experiences in transition. I use my writing as a way
             to engage with queer theory, history, and media in order to better
             understand myself and what it means to be trans.
           </p>
           <h3>Some favorites</h3>
           <ul>
-            <li>Piece 1</li>
-            <li>Piece 2</li>
-            <li>Piece 3</li>
+            <li>
+              <a
+                href="https://humankibble.com/posts/common-ally-slurs/"
+                target="blank"
+              >
+                Common Ally Slurs
+              </a>—when truisms hurt, and what to say instead
+            </li>
+            <li>
+              <a
+                href="https://humankibble.com/posts/visibility-tanking/"
+                target="blank"
+              >
+                Visibility Tanking
+              </a>—a strategy for taking space
+            </li>
+            <li>
+              <a
+                href="https://humankibble.com/posts/my-dolls/"
+                target="blank"
+              >
+                My Dolls
+              </a>—a machinima essay on reclaiming my past
+            </li>
+            <li>
+              <a href="https://humankibble.com/posts/epe-baby/" target="blank">
+                EPE, baby
+              </a>—an interactive exercise in absurdism
+            </li>
           </ul>
         </Section>
         <Section title="Play">
+          <p>
+            Outside of work and art, I dabble in electronics, graphics
+            technologies, and game development. Here are a few random
+            accomplishments:
+          </p>
           <ul>
+            <li>Competed in 4 Ludum Dare 48 hour game jam competitions</li>
             <li>
-              I make stickers for sticking and shirts for wearing, here are some
-              pics but I'm not selling any atm
+              Designed two light field renderers, a toy rasterizer with a scene
+              graph, and a realtime WebGPU raytracer
             </li>
             <li>
-              I used to build a lot of fun things with microcontrollers, like
-              NTSC signal generators and robots that can play a Nintendo 3DS
+              Hosted too many custom Minecraft servers to count (my way of
+              microdosing Linux)
             </li>
             <li>
-              I'm obsessed with Minecraft and have run a number of servers for
-              friends. It's my way of microdosing cloud architect life
+              Once wrote a Duck Hunt-style game for my cats that detected their
+              pounces on the TV
             </li>
           </ul>
-          <GalleryGrid
-            items={[
-              {
-                alt: "a picture of my Minecraft skin",
-                src: "/images/minecraft-skin.png",
-                width: 453,
-                height: 565,
-              },
-              {
-                alt: "a picture of my Minecraft skin",
-                src: "/images/minecraft-skin.png",
-                width: 453,
-                height: 565,
-              },
-              {
-                alt: "a picture of my Minecraft skin",
-                src: "/images/minecraft-skin.png",
-                width: 453,
-                height: 565,
-              },
-              {
-                alt: "a picture of my Minecraft skin",
-                src: "/images/minecraft-skin.png",
-                width: 453,
-                height: 565,
-              },
-            ]}
-          />
+          <GalleryGrid items={playGrid} />
         </Section>
         <Section title="Contact Me">
           <p>
@@ -213,6 +205,14 @@ export default function Home() {
                 target="blank"
               >
                 <InstagramIcon className={styles["social-icon"]} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/@Hypothete/videos"
+                target="blank"
+              >
+                <YoutubeIcon className={styles["social-icon"]} />
               </a>
             </li>
           </ul>
