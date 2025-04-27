@@ -54,25 +54,26 @@ export default function Home() {
           <p>
             I've worked since 2013 mostly in frontend developer roles at small
             businesses and startups. I've been responsible for complex
-            visalizations, system and cloud architecture, project management,
+            visualizations, system and cloud architecture, project management,
             and team leadership. Currently I'm seeking new directions in my
             career, because I love breadth and a holistic understanding of how
             teams and businesses work.
           </p>
           <h3>An unordered list of my skills</h3>
           <pre>
-            TypeScript | React | Redux | Next.js | TanStack Query | Webpack |
-            Storybook | Vite | GraphQL | WebGL | Canvas | SVG | GLSL | WebGPU |
-            AWS CDK | GitHub Actions | GCP | Agile | Scrum Ceremonies | Ticket
-            Breakout | A/B Testing | Technical Leadership | Hiring |
-            Documentation | Roadmap Planning
+            React | TypeScript | Next.js | AWS CDK | GitHub Actions | Google
+            Cloud Platform | Mentorship | Developer Experience |
+            Cross-functional Collaboration | Agile/Scrum Facilitation | Roadmap
+            Development | WebGL | Three.js | WebGPU | Canvas | SVG | D3.js |
+            Recharts | Redux | TanStack Query | Webpack | Babel | Storybook |
+            Vite | GraphQL | Technical Discovery | A/B Testing
           </pre>
           <h3 id="resume">Résumé - Choose your path!</h3>
           <div className={styles["resume-grid"]}>
             <div className={styles["resume-grid__item"]}>
               <a
                 href="resumes/Erin Alexander-engineering.pdf"
-                target="blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <EngineeringIcon className={styles["resume-icon"]} />
@@ -82,7 +83,7 @@ export default function Home() {
             <div className={styles["resume-grid__item"]}>
               <a
                 href="resumes/Erin Alexander-management.pdf"
-                target="blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <ManagementIcon className={styles["resume-icon"]} />
@@ -92,7 +93,7 @@ export default function Home() {
             <div className={styles["resume-grid__item"]}>
               <a
                 href="resumes/Erin Alexander-product.pdf"
-                target="blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <ProductIcon className={styles["resume-icon"]} />
@@ -102,7 +103,7 @@ export default function Home() {
             <div className={styles["resume-grid__item"]}>
               <a
                 href="resumes/Erin Alexander-graphics.pdf"
-                target="blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <GraphicsIcon className={styles["resume-icon"]} />
@@ -115,10 +116,10 @@ export default function Home() {
           <p>
             I graduated from college in 2009 with a degree in art and art
             history. After school I was deeply involved in the Net Art scene and
-            the art collective dump.fm until late 2012, exhibiting work and
-            rubbing shoulders with new media artists and GIF-makers. I started
-            to find myself more drawn to the web itself as a medium, and
-            translated my skills into an engineering career.
+            the art collective dump.fm, exhibiting work and rubbing shoulders
+            with new media artists and GIF-makers. I started to find myself more
+            drawn to the web itself as a medium, and translated my skills into
+            an engineering career.
           </p>
           <GalleryGrid items={oldArtGrid} />
           <p>
@@ -134,7 +135,7 @@ export default function Home() {
             essays on my blog{" "}
             <a
               href="https://humankibble.com"
-              target="blank"
+              target="_blank"
               rel="noopener noreferrer"
             >
               Human Kibble
@@ -148,7 +149,7 @@ export default function Home() {
             <li>
               <a
                 href="https://humankibble.com/posts/common-ally-slurs/"
-                target="blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 Common Ally Slurs
@@ -158,7 +159,7 @@ export default function Home() {
             <li>
               <a
                 href="https://humankibble.com/posts/visibility-tanking/"
-                target="blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 Visibility Tanking
@@ -168,7 +169,7 @@ export default function Home() {
             <li>
               <a
                 href="https://humankibble.com/posts/my-dolls/"
-                target="blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 My Dolls
@@ -178,7 +179,7 @@ export default function Home() {
             <li>
               <a
                 href="https://humankibble.com/posts/epe-baby/"
-                target="blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 EPE, baby
@@ -219,7 +220,7 @@ export default function Home() {
             <li>
               <a
                 href="mailto:erin@hypothete.com"
-                target="blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <EmailIcon className={styles["social-icon"]} />
@@ -228,7 +229,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/hypothete"
-                target="blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <GithubIcon className={styles["social-icon"]} />
@@ -237,7 +238,7 @@ export default function Home() {
             <li>
               <a
                 href="https://www.linkedin.com/in/hypothete/"
-                target="blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <LinkedInIcon className={styles["social-icon"]} />
@@ -246,7 +247,7 @@ export default function Home() {
             <li>
               <a
                 href="https://www.instagram.com/erinholographic/"
-                target="blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <InstagramIcon className={styles["social-icon"]} />
@@ -255,7 +256,7 @@ export default function Home() {
             <li>
               <a
                 href="https://www.youtube.com/@Hypothete/videos"
-                target="blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <YoutubeIcon className={styles["social-icon"]} />
