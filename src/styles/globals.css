@@ -2,9 +2,6 @@
   --background: #ededed;
   --foreground: #0a0a0a;
   --accent: #c00a86;
-  --font-sans: "Poppins", sans-serif;
-  --font-serif: "Spectral", serif;
-  --font-mono: "Fira Mono", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,7 +26,7 @@ body {
 body {
   color: var(--foreground);
   background: #640050;
-  font-family: var(--font-serif);
+  font-family: var(--font-serif), serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0 1rem;
@@ -43,7 +40,7 @@ body {
 
 h1,
 h2 {
-  font-family: var(--font-sans);
+  font-family: var(--font-sans), sans-serif;
   margin-bottom: 1rem;
 }
 
@@ -54,7 +51,7 @@ h3 {
 
 code,
 pre {
-  font-family: var(--font-mono);
+  font-family: var(--font-mono), monospace;
   padding: 0.5rem;
   border-radius: 2px;
   background-color: #333;

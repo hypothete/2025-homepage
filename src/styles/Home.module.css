@@ -1,17 +1,3 @@
-.main {
-  margin: 2rem auto;
-  background-color: var(--background);
-  color: var(--foreground);
-  padding: 2rem 2rem;
-  max-width: 60rem;
-  position: relative;
-  border-radius: 2px;
-
-  @media (min-width: 768px) {
-    padding: 2rem 4rem;
-  }
-}
-
 .above-fold {
   display: grid;
   grid-template-rows: auto auto;
@@ -82,12 +68,3 @@
   height: 2rem;
 }
 
-.footer {
-  text-align: center;
-  margin: 2rem auto;
-  background-color: var(--background);
-  color: var(--foreground);
-  padding: 1rem 2rem;
-  max-width: 60rem;
-  border-radius: 2px;
-}

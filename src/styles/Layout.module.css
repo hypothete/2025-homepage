@@ -1,0 +1,35 @@
+.main {
+  margin: 2rem auto;
+  font-family: var(--font-serif), serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  padding: 2rem 2rem;
+  max-width: 60rem;
+  position: relative;
+  border-radius: 2px;
+
+  @media (min-width: 768px) {
+    padding: 2rem 4rem;
+  }
+
+  h1,
+  h2 {
+    font-family: var(--font-sans), sans-serif;
+  }
+
+  code,
+  pre {
+    font-family: var(--font-mono), monospace;
+  }
+}
+
+.footer {
+  font-family: var(--font-serif), serif;
+  text-align: center;
+  margin: 2rem auto;
+  background-color: var(--background);
+  color: var(--foreground);
+  padding: 1rem 2rem;
+  max-width: 60rem;
+  border-radius: 2px;
+}
