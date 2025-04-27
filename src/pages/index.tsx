@@ -15,8 +15,7 @@ import InstagramIcon from "@/assets/instagram.svg";
 import YoutubeIcon from "@/assets/youtube.svg";
 import LinkedInIcon from "@/assets/linkedin.svg";
 import { oldArtGrid, newArtGrid, playGrid } from "@/data/galleries";
-
-console.log(typeof LinkedInIcon);
+import Background from "@/components/Background";
 
 export default function Home() {
   return (
@@ -30,7 +29,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+    <Background />
       <main className={styles.main}>
         <div className={styles["above-fold"]}>
           <img
