@@ -5,6 +5,7 @@ export interface GridItem {
   alt: string;
   caption?: string;
   src: string;
+  thumb: string;
   width: number;
   height: number;
 }
@@ -22,7 +23,7 @@ const GalleryGrid = ({ items }: GalleryGridProps) => {
           cropped
           caption={item.caption}
           original={item.src}
-          thumbnail={item.src}
+          thumbnail={item.thumb}
           width={item.width}
           height={item.height}
           key={`gallery-item-${index}`}
@@ -32,7 +33,7 @@ const GalleryGrid = ({ items }: GalleryGridProps) => {
               <img
                 alt={item.alt}
                 onClick={open}
-                src={item.src}
+                src={item.thumb}
                 className={styles['gallery__source']}
               />
             </picture>

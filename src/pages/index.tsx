@@ -29,7 +29,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <Background />
+      <Background />
       <main className={styles.main}>
         <div className={styles["above-fold"]}>
           <img
@@ -41,12 +41,12 @@ export default function Home() {
             <h1>Erin Alexander</h1>
             <p>
               Hi, I'm Erin! I'm a software engineer, writer, and visual artist
-              from Portland, Oregon. When I'm in a professional role or making
-              art for myself, my work tends to be cross-disciplinary and driven
-              by systems thinking. I'm drawn to what science fiction author Rudy
-              Rucker terms <i>the gnarl</i>—the zone of complexity between order
-              and chaos. I embrace that liminality, whether I'm wearing multiple
-              hats at startups or expressing myself through multimedia.
+              from Portland, Oregon. Whether I'm building something at a startup
+              or making art for myself, my work tends to be cross-disciplinary
+              and driven by systems thinking. I'm drawn to explore what science
+              fiction author Rudy Rucker terms <i>the gnarl</i>—the zone of
+              complexity between order and chaos, where interesting things
+              happen.
             </p>
           </div>
         </div>
@@ -70,25 +70,41 @@ export default function Home() {
           <h3 id="resume">Résumé - Choose your path!</h3>
           <div className={styles["resume-grid"]}>
             <div className={styles["resume-grid__item"]}>
-              <a href="resumes/Erin Alexander-engineering.pdf" target="blank" rel="noopener noreferrer">
+              <a
+                href="resumes/Erin Alexander-engineering.pdf"
+                target="blank"
+                rel="noopener noreferrer"
+              >
                 <EngineeringIcon className={styles["resume-icon"]} />
                 <h4>Engineering</h4>
               </a>
             </div>
             <div className={styles["resume-grid__item"]}>
-              <a href="resumes/Erin Alexander-management.pdf" target="blank" rel="noopener noreferrer">
+              <a
+                href="resumes/Erin Alexander-management.pdf"
+                target="blank"
+                rel="noopener noreferrer"
+              >
                 <ManagementIcon className={styles["resume-icon"]} />
                 <h4>Management</h4>
               </a>
             </div>
             <div className={styles["resume-grid__item"]}>
-              <a href="resumes/Erin Alexander-product.pdf" target="blank" rel="noopener noreferrer">
+              <a
+                href="resumes/Erin Alexander-product.pdf"
+                target="blank"
+                rel="noopener noreferrer"
+              >
                 <ProductIcon className={styles["resume-icon"]} />
                 <h4>Product</h4>
               </a>
             </div>
             <div className={styles["resume-grid__item"]}>
-              <a href="resumes/Erin Alexander-graphics.pdf" target="blank" rel="noopener noreferrer">
+              <a
+                href="resumes/Erin Alexander-graphics.pdf"
+                target="blank"
+                rel="noopener noreferrer"
+              >
                 <GraphicsIcon className={styles["resume-icon"]} />
                 <h4>Graphics</h4>
               </a>
@@ -116,7 +132,11 @@ export default function Home() {
           <p>
             I came out as transgender in 2022, and since then I've been writing
             essays on my blog{" "}
-            <a href="https://humankibble.com" target="blank" rel="noopener noreferrer">
+            <a
+              href="https://humankibble.com"
+              target="blank"
+              rel="noopener noreferrer"
+            >
               Human Kibble
             </a>{" "}
             about my experiences in transition. I write to engage with queer
@@ -128,7 +148,8 @@ export default function Home() {
             <li>
               <a
                 href="https://humankibble.com/posts/common-ally-slurs/"
-                target="blank" rel="noopener noreferrer"
+                target="blank"
+                rel="noopener noreferrer"
               >
                 Common Ally Slurs
               </a>
@@ -137,20 +158,29 @@ export default function Home() {
             <li>
               <a
                 href="https://humankibble.com/posts/visibility-tanking/"
-                target="blank" rel="noopener noreferrer"
+                target="blank"
+                rel="noopener noreferrer"
               >
                 Visibility Tanking
               </a>
               —a strategy for taking space
             </li>
             <li>
-              <a href="https://humankibble.com/posts/my-dolls/" target="blank" rel="noopener noreferrer">
+              <a
+                href="https://humankibble.com/posts/my-dolls/"
+                target="blank"
+                rel="noopener noreferrer"
+              >
                 My Dolls
               </a>
               —a machinima essay on reclaiming my past
             </li>
             <li>
-              <a href="https://humankibble.com/posts/epe-baby/" target="blank" rel="noopener noreferrer">
+              <a
+                href="https://humankibble.com/posts/epe-baby/"
+                target="blank"
+                rel="noopener noreferrer"
+              >
                 EPE, baby
               </a>
               —an interactive exercise in absurdism
@@ -187,24 +217,37 @@ export default function Home() {
           </p>
           <ul className={styles["inline-list"]}>
             <li>
-              <a href="mailto:erin@hypothete.com" target="blank" rel="noopener noreferrer">
+              <a
+                href="mailto:erin@hypothete.com"
+                target="blank"
+                rel="noopener noreferrer"
+              >
                 <EmailIcon className={styles["social-icon"]} />
               </a>
             </li>
             <li>
-              <a href="https://github.com/hypothete" target="blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/hypothete"
+                target="blank"
+                rel="noopener noreferrer"
+              >
                 <GithubIcon className={styles["social-icon"]} />
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/hypothete/" target="blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/hypothete/"
+                target="blank"
+                rel="noopener noreferrer"
+              >
                 <LinkedInIcon className={styles["social-icon"]} />
               </a>
             </li>
             <li>
               <a
                 href="https://www.instagram.com/erinholographic/"
-                target="blank" rel="noopener noreferrer"
+                target="blank"
+                rel="noopener noreferrer"
               >
                 <InstagramIcon className={styles["social-icon"]} />
               </a>
@@ -212,7 +255,8 @@ export default function Home() {
             <li>
               <a
                 href="https://www.youtube.com/@Hypothete/videos"
-                target="blank" rel="noopener noreferrer"
+                target="blank"
+                rel="noopener noreferrer"
               >
                 <YoutubeIcon className={styles["social-icon"]} />
               </a>
