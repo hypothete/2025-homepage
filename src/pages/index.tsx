@@ -210,6 +210,7 @@ export default function Home() {
               href="mailto:erin@hypothete.com"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Email me"
             >
               <EmailIcon className={styles["social-icon"]} />
             </a>
@@ -219,6 +220,7 @@ export default function Home() {
               href="https://github.com/hypothete"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Link to my GitHub"
             >
               <GithubIcon className={styles["social-icon"]} />
             </a>
@@ -228,6 +230,7 @@ export default function Home() {
               href="https://www.linkedin.com/in/hypothete/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Link to my LinkedIn"
             >
               <LinkedInIcon className={styles["social-icon"]} />
             </a>
@@ -237,6 +240,7 @@ export default function Home() {
               href="https://www.instagram.com/erinholographic/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Link to my Instagram"
             >
               <InstagramIcon className={styles["social-icon"]} />
             </a>
@@ -246,6 +250,7 @@ export default function Home() {
               href="https://www.youtube.com/@Hypothete/videos"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Link to my Youtube channel"
             >
               <YoutubeIcon className={styles["social-icon"]} />
             </a>
