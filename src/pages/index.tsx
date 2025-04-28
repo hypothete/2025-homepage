@@ -178,7 +178,7 @@ export default function Home() {
       </Section>
       <Section title="Play">
         <p>
-          Outside of work and art, I dabble in electronics, graphics
+          Outside of web dev and writing and art, I dabble in electronics, graphics
           technologies, and game development. Here are a few random
           accomplishments:
         </p>
