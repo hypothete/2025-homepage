@@ -127,9 +127,10 @@ export default function Home() {
           >
             Human Kibble
           </a>{" "}
-          about my experiences in transition. I write to engage with queer
-          theory, history, and media in order to better understand myself and
-          what it means to be trans.
+          about my experiences in transition. I write to engage with the
+          (excessive amount of) queer theory, history, literature and media I
+          devour in order to better understand myself and what it means to be
+          trans.
         </p>
         <h3>Some favorites</h3>
         <ul>
