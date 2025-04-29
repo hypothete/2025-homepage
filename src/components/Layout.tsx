@@ -4,6 +4,7 @@ import { Poppins, Spectral, Fira_Mono } from "next/font/google";
 import "photoswipe/dist/photoswipe.css";
 import styles from "@/styles/Layout.module.css";
 import Background from "@/components/Background";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 interface LayoutProps {
   children: ReactNode;
@@ -42,6 +43,7 @@ export default function Layout({ children }: LayoutProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <GoogleAnalytics gaId="G-TL0K0955RB" />
       <Background />
       <main
         className={`${poppins.variable} ${spectral.variable}
