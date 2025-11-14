@@ -22,30 +22,23 @@ export default function Home() {
       <div className={styles["above-fold"]}>
         <img
           className={styles["above-fold__headshot"]}
-          src="images/elephants-3-yrs.jpg"
+          src="images/fall-2025-headshot-2.jpg"
           alt="A photo of Erin Alexander"
         />
         <div className={styles["above-fold__text"]}>
           <h1>Erin Alexander</h1>
           <p>
             Hi, I&apos;m Erin! I&apos;m a software engineer, writer, and visual
-            artist from Portland, Oregon. Whether I&apos;m building something at
-            a startup or making art for myself, my work tends to be
-            cross-disciplinary and driven by systems thinking. I&apos;m drawn to
-            explore what science fiction author Rudy Rucker terms{" "}
-            <i>the gnarl</i>—the zone of complexity between order and chaos,
-            where interesting things happen.
+            artist from Portland, Oregon.
           </p>
         </div>
       </div>
       <Section title="Career">
         <p>
-          I&apos;ve worked since 2013 mostly in frontend developer roles at
-          small businesses and startups. I&apos;ve been responsible for complex
-          visualizations, system and cloud architecture, project management, and
-          team leadership. Currently I&apos;m seeking new directions in my
-          career, because I love breadth and a holistic understanding of how
-          teams and businesses work.
+          I&apos;ve worked since 2013 in frontend and fullstack developer roles
+          at small businesses and startups. I&apos;ve been responsible for
+          complex visualizations, system and cloud architecture, project
+          management, and team leadership.
         </p>
         <h3>An unordered list of my skills</h3>
         <pre>
@@ -60,7 +53,7 @@ export default function Home() {
         <div className={styles["resume-grid"]}>
           <div className={styles["resume-grid__item"]}>
             <a
-              href="resumes/Erin Alexander-engineering.pdf"
+              href="resumes/Erin Alexander-engineering-full.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -103,11 +96,8 @@ export default function Home() {
       <Section title="Art">
         <p>
           I graduated from college in 2009 with a degree in art and art history.
-          After school I was deeply involved in the Net Art scene and the art
-          collective dump.fm, exhibiting work and rubbing shoulders with new
-          media artists and GIF-makers. I started to find myself more drawn to
-          the web itself as a medium, and translated my skills into an
-          engineering career.
+          After school I started to find myself more drawn to the web itself as
+          a medium, and translated my skills into an engineering career.
         </p>
         <GalleryGrid items={oldArtGrid} />
         <p>
@@ -118,7 +108,7 @@ export default function Home() {
       </Section>
       <Section title="Writing">
         <p>
-          I came out as transgender in 2022, and since then I&apos;ve been
+          I came out as trans in 2022, and since then I&apos;ve been
           writing essays on my blog{" "}
           <a
             href="https://humankibble.com"
@@ -132,65 +122,17 @@ export default function Home() {
           devour in order to better understand myself and what it means to be
           trans.
         </p>
-        <h3>Some favorites</h3>
-        <ul>
-          <li>
-            <a
-              href="https://humankibble.com/posts/common-ally-slurs/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Common Ally Slurs
-            </a>
-            —when truisms hurt, and what to say instead
-          </li>
-          <li>
-            <a
-              href="https://humankibble.com/posts/visibility-tanking/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visibility Tanking
-            </a>
-            —a strategy for taking space
-          </li>
-          <li>
-            <a
-              href="https://humankibble.com/posts/my-dolls/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              My Dolls
-            </a>
-            —a machinima essay on reclaiming my past
-          </li>
-          <li>
-            <a
-              href="https://humankibble.com/posts/epe-baby/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              EPE, baby
-            </a>
-            —an interactive exercise in absurdism
-          </li>
-        </ul>
       </Section>
       <Section title="Play">
         <p>
-          Outside of web dev and writing and art, I dabble in electronics, graphics
-          technologies, and game development. Here are a few random
-          accomplishments:
+          I dabble in electronics, graphics technologies, and game development.
+          Here are a few random projects:
         </p>
         <ul>
           <li>Competed in 4 Ludum Dare 48 hour game jam competitions</li>
           <li>
             Designed two light field renderers, a toy rasterizer with a scene
             graph, and a realtime WebGPU raytracer
-          </li>
-          <li>
-            Hosted too many custom Minecraft servers to count (my way of
-            microdosing Linux)
           </li>
           <li>
             Once wrote a Duck Hunt-style game for my cats that detected their

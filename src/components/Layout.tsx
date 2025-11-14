@@ -53,7 +53,7 @@ export default function Layout({ children }: LayoutProps) {
       </main>
 
       <footer className={`${styles.footer} ${spectral.variable}`}>
-        Copyright Erin A. 2009-25. All rights reserved 😘
+        Copyright Erin A. 2009-25. All rights reserved 💜
       </footer>
     </>
   );
