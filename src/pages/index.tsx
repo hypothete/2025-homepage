@@ -38,7 +38,7 @@ export default function Home() {
         </p>
         <h3>
           An unordered list of my skills,{" "}
-          <a href="./public/resumes/erin-alexander-resume.pdf">
+          <a href="./resumes/erin-alexander-resume.pdf">
             more in my résumé
           </a>
         </h3>
