@@ -41,7 +41,7 @@ export default function Layout({ children }: LayoutProps) {
           content="Homepage for Erin Alexander: engineer, visual artist, writer"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.gif" type="image/gif"/>
       </Head>
       <GoogleAnalytics gaId="G-TL0K0955RB" />
       <Background />
@@ -53,7 +53,7 @@ export default function Layout({ children }: LayoutProps) {
       </main>
 
       <footer className={`${styles.footer} ${spectral.variable}`}>
-        Copyright Erin A. 2009-25. All rights reserved 💜
+        Copyright Erin A. 2009-26. All rights reserved 💜
       </footer>
     </>
   );
